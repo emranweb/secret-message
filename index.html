@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secret Message APP</title>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 mt-5 text-center">
+                    <h1>Secret Message app</h1>
+                </div>
+
+                <div class="message-box mt-5">
+                    <div class="form-group">
+                        <input type="text" class="form-control input-message">
+                    </div>
+                    <button type="submit" class="btn my-3 btn-primary">Create Message</button>
+                </div>
+
+                <div class="message-link d-none">
+                    <div class="form-group">
+                        <h3>Message</h3>
+                        <input type="text" class="form-control show-link">
+                    </div>
+                </div>
+
+                <div class="card show-message p-4 d-none">
+                    <h2 class="message-title card-title"></h2>
+                    <a href="index.html" class="create-message">Create Message</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <script src="app.js"></script>
+</body>
+
+</html>
